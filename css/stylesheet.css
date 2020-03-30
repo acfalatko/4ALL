@@ -1,0 +1,110 @@
+html, body{
+  padding: 0px;
+  margin:0px;
+  overflow-x: hidden;
+}
+a:focus{
+  background-color:orange !important;
+}
+a:hover{
+  background-color: orange;
+}
+
+
+.navlinks{
+  color: #333 !important;
+  font-size: 14pt;
+  font-weight: bold;
+}
+.navlinks:hover{
+  background-color: #caf2f3;
+  border-radius: 3px!important;
+
+}
+.navlinks:focus{
+  background-color: orange;
+  border-radius: 3px!important;
+
+}
+.cta-icon-link{
+  color:black;
+  font-weight: bold;
+  font-size: 16pt;
+}
+.cta-icon-link:hover{
+  color:black;
+
+}
+.bgimg{
+  background-image: url('images/friends-man-in-wheelchair.jpeg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ background-size: cover;
+ -o-background-size: cover;
+}
+
+
+
+.parent-icon-link-1:hover{
+background-color:#35cce4 !important;
+text-decoration: underline !important;
+
+}
+.parent-icon-link-2:hover{
+background-color:#ffd043 !important;
+text-decoration: underline !important;
+}
+.parent-icon-link-3:hover{
+background-color:#df4151 !important;
+text-decoration: underline !important;
+}
+li{
+  /* color: #fefefe !important; */
+  line-height: 38pt !important;
+}
+p{
+  line-height: 35px;
+}
+.featured-text{
+  padding-bottom: 0 !important;
+  margin-bottom: 6px !important;
+  padding-left:3px !important;
+  padding-right:3px !important;
+}
+.featured-links{
+
+}
+.text-right-important{
+  text-align: right !important;
+}
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (MIN-width: 768px) {
+
+}
+
+@media (max-width: 768px) {
+  li #navli {
+      display:inline;
+      flex: 0 1 auto; /* Default */
+      list-style-type: none;
+
+  }
+  .text-adjustment{
+    padding:0 !important;
+    margin: 0 !important;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
